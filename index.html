@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathway Overseas Consultancy</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #172033;
+      background: #ffffff;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e8e8e8;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      height: 65px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #172033;
+      margin-left: 28px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #b88a2b;
+    }
+
+    .hero {
+      min-height: 650px;
+      display: flex;
+      align-items: center;
+      padding: 70px 7%;
+      background: linear-gradient(135deg, #f7f4ec, #ffffff);
+    }
+
+    .hero-content {
+      max-width: 720px;
+    }
+
+    .hero h1 {
+      font-size: 58px;
+      line-height: 1.1;
+      margin-bottom: 22px;
+      color: #172033;
+    }
+
+    .hero h1 span {
+      color: #b88a2b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      line-height: 1.7;
+      color: #555;
+      margin-bottom: 35px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 15px 28px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 12px;
+    }
+
+    .primary {
+      background: #172033;
+      color: white;
+    }
+
+    .secondary {
+      border: 2px solid #b88a2b;
+      color: #b88a2b;
+      background: white;
+    }
+
+    section {
+      padding: 80px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: 38px;
+      color: #172033;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: #666;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      padding: 35px 28px;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #e8e8e8;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      color: #172033;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.7;
+    }
+
+    .destinations {
+      background: #f7f4ec;
+    }
+
+    .cta {
+      text-align: center;
+      background: #172033;
+      color: white;
+    }
+
+    .cta h2 {
+      font-size: 40px;
+      margin-bottom: 18px;
+    }
+
+    .cta p {
+      margin-bottom: 28px;
+      color: #ddd;
+    }
+
+    footer {
+      background: #0e1420;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    @media (max-width: 800px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="pathway%20logo.jpg" alt="Pathway Overseas Consultancy Logo" class="logo">
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Build Your <span>Global Career</span></h1>
+
+    <p>
+      Pathway Overseas Consultancy helps students and professionals
+      explore international education, internships and overseas career opportunities.
+    </p>
+
+    <div class="buttons">
+      <a href="#services" class="primary">Explore Opportunities</a>
+      <a href="#contact" class="secondary">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2>Our Services</h2>
+    <p>Your pathway to international opportunities.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>International Education</h3>
+      <p>Guidance for students looking to pursue education and professional programs abroad.</p>
+    </div>
+
+    <div class="card">
+      <h3>International Internships</h3>
+      <p>Explore internship opportunities that provide valuable international work experience.</p>
+    </div>
+
+    <div class="card">
+      <h3>Overseas Careers</h3>
+      <p>Professional guidance for building a successful career in international markets.</p>
+    </div>
+  </div>
+</section>
+
+<section class="destinations" id="destinations">
+  <div class="section-title">
+    <h2>Global Destinations</h2>
+    <p>Discover opportunities across the world.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Malaysia</h3>
+      <p>Education, internships and career opportunities.</p>
+    </div>
+
+    <div class="card">
+      <h3>Singapore</h3>
+      <p>International education and professional pathways.</p>
+    </div>
+
+    <div class="card">
+      <h3>Europe</h3>
+      <p>Explore education and career opportunities across Europe.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Ready to Start Your Journey?</h2>
+  <p>Let Pathway Overseas Consultancy help you take the next step.</p>
+  <a href="mailto:info@pathway2overseas.com" class="secondary">Contact Us</a>
+</section>
+
+<footer>
+  <p>© 2026 Pathway Overseas Consultancy. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
